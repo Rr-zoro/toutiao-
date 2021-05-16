@@ -1,18 +1,12 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <van-button type="primary">主要按钮</van-button>
-      <van-button type="info">信息按钮</van-button>
-      <van-button type="default">默认按钮</van-button>
-      <van-button type="warning">警告按钮</van-button>
-      <van-button type="danger">危险按钮</van-button>
-      <div class="box" style="width: 80px; height: 100px"></div>
-    </div>
+    <!-- 路由出口 -->
     <router-view />
   </div>
 </template>
 <script>
 export default {
+  // 添加name是为了在Vue调试工具devtools中通过name名字进行搜索调试
   name: "App",
 };
 </script>
