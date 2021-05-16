@@ -6,10 +6,7 @@
       <van-button type="default">默认按钮</van-button>
       <van-button type="warning">警告按钮</van-button>
       <van-button type="danger">危险按钮</van-button>
-      <div
-        class="box"
-        style="width: 80px; height: 100px; background: red"
-      ></div>
+      <div class="box" style="width: 80px; height: 100px"></div>
     </div>
     <router-view />
   </div>
